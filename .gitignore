@@ -1,0 +1,33 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Pytest
+.pytest_cache/
+
+# Скриншоты и видео Playwright
+screenshots/
+test-results/
+
+# Логи
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
