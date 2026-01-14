@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"TC-002: Вход с невалидными данными","12427","test_invalid_login[chromium]","Tests","2026-01-13","passed","2026-01-13","","test_login","",""
+"TC-001: Вход с валидными данными","7113","test_valid_login[chromium]","Tests","2026-01-13","passed","2026-01-13","","test_login","",""

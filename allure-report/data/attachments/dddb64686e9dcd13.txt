@@ -1,0 +1,4 @@
+
+🎯 TC-001: Вход с валидными данными
+✅ Успешный вход под multicustomer
+📸 Скриншот сохранён: screenshots/screenshot_TC001_valid_login_PASS_1768298706.png
