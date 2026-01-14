@@ -28,7 +28,18 @@ jobs:
             --browser chromium \
             --video retain-on-failure \
             --screenshot only-on-failure \
+            --alluredir=allure-results \   # ← ДОБАВЛЕНО!
+            --html=report.html \             # ← для HTML-отчёта
+            --self-contained-html \
             -v
+
+      - name: Upload Allure results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results/            # ← ПАПКА С JSON-ФАЙЛАМИ
+          retention-days: 7
 
       - name: Upload artifacts on failure
         if: failure()
